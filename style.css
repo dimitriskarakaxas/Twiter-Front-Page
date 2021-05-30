@@ -76,6 +76,7 @@ body {
 
 .input-container input:focus {
   border: 2px solid rgb(29, 161, 242);
+  margin: 0 -1px;
 }
 
 button[type="submit"] {
@@ -87,6 +88,7 @@ button[type="submit"] {
   background: rgb(29, 161, 242);
   border: none;
   border-radius: 9999px;
+  outline: none;
   cursor: pointer;
 }
 
@@ -96,13 +98,12 @@ button[type="submit"]:hover {
 
 .actions-container {
   text-align: center;
+  margin-top: 2em;
 }
 
 .forgot-password,
 .register {
-  display: inline-block;
   font-size: 0.85rem;
-  margin-top: 2em;
   color: rgb(29, 161, 242);
   text-decoration: none;
 }
@@ -115,4 +116,8 @@ button[type="submit"]:hover {
 .register:hover {
   text-decoration: underline;
   text-decoration-color: rgb(29, 161, 242);
+}
+
+.dot-separator {
+  background: green;
 }
